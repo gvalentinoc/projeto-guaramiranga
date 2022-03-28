@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Guaramiranga - Satisfação</title>
+</head>
+<body>
+    <div id="loading-div" class="flex-center full-height flex-column hidden">
+        <img style=" max-width: 180px; max-height: 180px; margin-bottom: 40px; margin: auto; display: block;" src="https://hotelescola.ifce.edu.br/logo_hotel_escola.png">
+    </div>
+
+
+    <div>
+        <h1 id="title-text" style="text-align: center; font-size: 50px; font-weight: bolder;">Hotel Escola Guaramiranga</h1>
+        <p id="sub-text" style="text-align: center; font-size:25px; font-weight: 100;;">Formulário para Avaliação e Sugestões</p>
+    </div>
+
+    <form>
+        
+            <div>
+                <h3>Dados de Hospedagem</h3>
+                <label><strong>Nome</strong></label>
+                <input type="text" nome="" id="client-name" class="client-field field__input a-field__input" placeholder="Digite seu nome" required>
+                <label><strong>Data de Hospedagem</strong></label>
+                <input type="date" name="00/00/0000" id="date">
+                <label><strong>Número do quarto</strong></label>
+                <input type="number" name="" id="room-number" min="1" class="client-field field__input a-field__input" placeholder="Seu número de quarto">
+                <label><strong>Número de Telefone</strong></label>
+                <input id="client-phone" type="tel" class="client-field field__input a-field__input" placeholder="Digite seu telefone" maxlength="15">
+             </div>
+         
+
+       <br>
+
+       <div>
+           <h3>Avaliação do Ambiente</h3>
+          <label>O hotel em sua totalidade:</label>
+          <label>
+             <input type="radio" name="devweb" value="excelente"checked>Excelente
+             <input type="radio" name="devweb" value="bom">Bom
+             <input type="radio" name="devweb" value="regular">Regular
+             <input type="radio" name="devweb" value="ruim">Ruim
+          </label>
+          <br>
+
+          <label>Chegada - registro eficiente:</label>
+          <label>
+             <input type="radio" name="avaliaçao" value="excelente">Excelente
+             <input type="radio" name="avaliaçao" value="bom">Bom
+             <input type="radio" name="avaliaçao" value="regular">Regular
+             <input type="radio" name="avaliaçao" value="ruim">Ruim
+          </label>
+          <br>
+
+          <label>Nível de conforto das camas:</label>
+          <label>
+             <input type="radio" name="avaliaçao" value="excelente">Excelente
+             <input type="radio" name="avaliaçao" value="bom">Bom
+             <input type="radio" name="avaliaçao" value="regular">Regular
+             <input type="radio" name="avaliaçao" value="ruim">Ruim
+          </label>
+          <br>
+
+          <label>Limpeza do quarto:</label>
+          <label>
+             <input type="radio" name="avaliaçao" value="excelente">Excelente
+             <input type="radio" name="avaliaçao" value="bom">Bom
+             <input type="radio" name="avaliaçao" value="regular">Regular
+             <input type="radio" name="avaliaçao" value="ruim">Ruim
+          </label>
+          <br>
+
+          <label>Experiência no restaurante:</label>
+          <label>
+              <input type="radio" name="avaliaçao" value="excelente">Excelente
+              <input type="radio" name="avaliaçao" value="bom">Bom
+              <input type="radio" name="avaliaçao" value="regular">Regular
+              <input type="radio" name="avaliaçao" value="ruim">Ruim
+          </label>
+       </div>
+       <br>
+       <div>
+           <h3>Como souberam de nós?</h3>
+           <label>
+               <input type="radio" name="social" value="facebook" checked>Facebook
+               <input type="radio" name="social" value="instagram">Instagram
+               <input type="radio" name="social" value="google">Google
+               <input type="radio" name="social" value="amigos">Amigos
+               <input type="radio" name="social" value="outros">Outros
+           </label>
+       </div>
+       <br>
+       <div>
+           <h3>Propósito da visita?</h3>
+           <label>
+               <input type="radio" name="visita" value="negocios" checked>Negócios
+               <input type="radio" name="visita" value="lazer">Lazer
+               <input type="radio" name="visita" value="converçaoreuniao">Convenção/Reunião
+           </label>
+       </div>
+
+       <div>
+           <h3>Quantas vezes você veio ao nosso hotel?</h3>
+           <label>
+               <input type="radio" name="quantidade" value="uma" checked> 1
+               <input type="radio" name="quantidade" value="duas"> 2
+               <input type="radio" name="quantidade" value="tres"> 3
+               <input type="radio" name="quantidade" value="quatro"> 4
+               <input type="radio" name="quantidade" value="cinco"> 5+
+
+           </label>
+       </div>
+
+       <div>
+           <br>
+           <h3>Por favor, diga-nos o que você mais gostou durante sua estadia.</h3>
+           <label>
+              <textarea row="6" sytle="width: 26cm" id="estadia" name="estadia"></textarea>
+           </label>
+       </div>
+
+       <div>
+           <br>
+           <h3>Por favor, diga-nos o que podemos fazer para melhorar.</h3>
+           <label>
+              <textarea row="6" style="width: 26cm" id="melhorar" name="melhorar"></textarea>
+           </label>
+       </div>
+
+       <div>
+           <h3>Você indicaria o Hotel Escola Guaramiranga?</h3>
+           <label>
+               <input type="radio" name="indicar" value="sim" checked>Sim
+               <input type="radio" name="indicar" value="não">Não
+               <input type="radio" name="indicar" value="talves">Talvez
+           </label>
+       </div>
+
+       
+    </form>
+</body>
+</html>
