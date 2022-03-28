@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+
     <title>Hotel Guaramiranga - Satisfação</title>
 </head>
 <body>
@@ -17,68 +21,70 @@
         <p id="sub-text" style="text-align: center; font-size:25px; font-weight: 100;;">Formulário para Avaliação e Sugestões</p>
     </div>
 
-    <form>
+    
+    
+    <form id="form" class="form">
         
-            <div>
-                <h3>Dados de Hospedagem</h3>
-                <label><strong>Nome</strong></label>
-                <input type="text" nome="" id="client-name" class="client-field field__input a-field__input" placeholder="Digite seu nome" required>
-                <label><strong>Data de Hospedagem</strong></label>
-                <input type="date" name="00/00/0000" id="date">
-                <label><strong>Número do quarto</strong></label>
-                <input type="number" name="" id="room-number" min="1" class="client-field field__input a-field__input" placeholder="Seu número de quarto">
-                <label><strong>Número de Telefone</strong></label>
-                <input id="client-phone" type="tel" class="client-field field__input a-field__input" placeholder="Digite seu telefone" maxlength="15">
-             </div>
+              <div class="form-control">
+                   <h3>Dados de Hospedagem</h3>
+                   <label><strong>Nome</strong></label>
+                   <input type="text" nome="" id="client-name" class="client-field field__input a-field__input" placeholder="Digite seu nome" required>
+                   <label><strong>Data de Hospedagem</strong></label>
+                   <input type="date" name="00/00/0000" id="date">
+                   <label><strong>Número do quarto</strong></label>
+                   <input type="number" name="" id="room-number" min="1" class="client-field field__input a-field__input" placeholder="Seu número de quarto">
+                   <label><strong>Número de Telefone</strong></label>
+                   <input id="client-phone" type="tel" class="client-field field__input a-field__input" placeholder="Digite seu telefone" maxlength="15">
+              </div>
          
 
        <br>
 
        <div>
            <h3>Avaliação do Ambiente</h3>
-          <label>O hotel em sua totalidade:</label>
-          <label>
-             <input type="radio" name="devweb" value="excelente"checked>Excelente
-             <input type="radio" name="devweb" value="bom">Bom
-             <input type="radio" name="devweb" value="regular">Regular
-             <input type="radio" name="devweb" value="ruim">Ruim
-          </label>
-          <br>
+           <label>O hotel em sua totalidade:</label>
+           <label>
+               <input type="radio" name="devweb" value="excelente"checked>Excelente
+               <input type="radio" name="devweb" value="bom">Bom
+               <input type="radio" name="devweb" value="regular">Regular
+               <input type="radio" name="devweb" value="ruim">Ruim
+           </label>
+           <br>
 
-          <label>Chegada - registro eficiente:</label>
-          <label>
-             <input type="radio" name="avaliaçao" value="excelente">Excelente
-             <input type="radio" name="avaliaçao" value="bom">Bom
-             <input type="radio" name="avaliaçao" value="regular">Regular
-             <input type="radio" name="avaliaçao" value="ruim">Ruim
-          </label>
-          <br>
+           <label>Chegada - registro eficiente:</label>
+           <label>
+               <input type="radio" name="avaliaçao" value="excelente">Excelente
+               <input type="radio" name="avaliaçao" value="bom">Bom
+               <input type="radio" name="avaliaçao" value="regular">Regular
+               <input type="radio" name="avaliaçao" value="ruim">Ruim
+           </label>
+           <br>
 
-          <label>Nível de conforto das camas:</label>
-          <label>
-             <input type="radio" name="avaliaçao" value="excelente">Excelente
-             <input type="radio" name="avaliaçao" value="bom">Bom
-             <input type="radio" name="avaliaçao" value="regular">Regular
-             <input type="radio" name="avaliaçao" value="ruim">Ruim
-          </label>
-          <br>
+           <label>Nível de conforto das camas:</label>
+           <label>
+               <input type="radio" name="avaliaçao" value="excelente">Excelente
+               <input type="radio" name="avaliaçao" value="bom">Bom
+               <input type="radio" name="avaliaçao" value="regular">Regular
+               <input type="radio" name="avaliaçao" value="ruim">Ruim
+           </label>
+           <br>
 
-          <label>Limpeza do quarto:</label>
-          <label>
-             <input type="radio" name="avaliaçao" value="excelente">Excelente
-             <input type="radio" name="avaliaçao" value="bom">Bom
-             <input type="radio" name="avaliaçao" value="regular">Regular
-             <input type="radio" name="avaliaçao" value="ruim">Ruim
-          </label>
-          <br>
+           <label>Limpeza do quarto:</label>
+           <label>
+               <input type="radio" name="avaliaçao" value="excelente">Excelente
+               <input type="radio" name="avaliaçao" value="bom">Bom
+               <input type="radio" name="avaliaçao" value="regular">Regular
+               <input type="radio" name="avaliaçao" value="ruim">Ruim
+           </label>
+           <br>
 
-          <label>Experiência no restaurante:</label>
-          <label>
-              <input type="radio" name="avaliaçao" value="excelente">Excelente
-              <input type="radio" name="avaliaçao" value="bom">Bom
-              <input type="radio" name="avaliaçao" value="regular">Regular
-              <input type="radio" name="avaliaçao" value="ruim">Ruim
-          </label>
+           <label>Experiência no restaurante:</label>
+           <label>
+               <input type="radio" name="avaliaçao" value="excelente">Excelente
+               <input type="radio" name="avaliaçao" value="bom">Bom
+               <input type="radio" name="avaliaçao" value="regular">Regular
+               <input type="radio" name="avaliaçao" value="ruim">Ruim
+           </label>
        </div>
        <br>
        <div>
@@ -112,6 +118,7 @@
 
            </label>
        </div>
+
 
        <div>
            <br>

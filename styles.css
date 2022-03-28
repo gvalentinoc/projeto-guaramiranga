@@ -1,0 +1,26 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #fff 0%, #9ACD32 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form {
+    padding: 20px;
+  }
+
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  .form-control input {
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+  }
