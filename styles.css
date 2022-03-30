@@ -1,26 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Sarala&family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 body {
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(90deg, #fff 0%, #9ACD32 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  font-family: 'sarala', sans-serif;
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #f1eeef 16.62%, #9ff78e 85.61%);
+}
 
-  .form {
-    padding: 20px;
-  }
+.box{
+  color: black;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
 
-  .form-control label {
-    display: inline-block;
-    margin-bottom: 5px;
-  }
+fieldset {
+  border: 0px solid;
+}
 
-  .form-control input {
-    border: 2px solid #f0f0f0;
-    display: block;
+.legenda{
+  border: 0px solid;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(149, 236, 138);
+  border-radius: 8px;
+  color: black;
+  font-family: 'patua-one', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  mix-blend-mode:luminosity;
+}
+
+.logo{
+  max-width: 180px; 
+  max-height: 180px; 
+  margin-bottom: 40px; 
+  margin: auto; 
+  display: block;
+}
+
+.paragrafo{
+  font-family:'patua-one', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+.titulo-informativo{
+  font-family: 'patua-one', sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+
+ .inputBox{
+   position: relative;
+ }
+
+ .labelInput{
+  position: relative; 
+  font-family: 'patua-one', sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+ }
+
+ .inputUser{
+   background:none;
+   border-bottom: 1px solid black;
+   border-radius: 12px;
+   font-size: 15px;
+   width: 50%;
+   letter-spacing: 2px;
+   padding: 0.6em;
+   border: 1px solid black;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .inputData{
+  border: 1px;
+  border-radius: 12px;
+  outline: none;
+  font-size: 15px;
+  letter-spacing: 3px;
+  padding: 0.4em;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.inputSelect{
+  position: relative;
+}
+
+.labelAvaliacao{
+  position: relative; 
+  font-family: 'patua-one', sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+select{
+  font-family: 'patua-one', sans-serif;
+    font-size: 1.7em;
+    color: black;
     border-radius: 10px;
-    font-size: 14px;
-    width: 100%;
-    padding: 10px;
-  }
+    display: flex;
+    flex-direction: column;
+}
