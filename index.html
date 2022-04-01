@@ -23,31 +23,30 @@
                         </h1>
                     </div>
                 </div>
-                <p class="paragrafo">Agradecemos a gentileza de nos ceder</p>
-                <p class="paragrafo">um tempo para nos dar sua opinião.</p>
+                <p class="lead text-center">Agradecemos a gentileza de nos ceder um tempo para nos dar sua opinião.</p>
                 <h3 class="titulo-informativo">Dados de Hospedagem</h3>
                 <div class="row">
-                <div class="mb-3">
+                <div class="col-md-6">
                     <label for="" class="labelInput">Nome</label>
                     <input type="text" class="form-control" placeholder="Nome completo" aria-label="nome-completo" required>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <label for="" class="labelInput">Número de telefone</label>
                     <input type="tel" name="telefone" id="inputfone" class="form-control" placeholder="Número de telefone" aria-label="numero-telefone" required>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <label for="" class="labelInput">Número do quarto</label>
                     <input type="number" name="" id="numero-quarto" min="1" class="form-control" placeholder="Número do quarto em que ficou hospedado" aria-label="quarto-hospedado">
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <label class="labelInput">Data de Hospedagem</label>
-                    <input class="form-control" type="date" name="00/00/0000" id="date" aria-label="data-hospedagem">
+                    <input class="form-control mb-3" type="date" name="00/00/0000" id="date" aria-label="data-hospedagem">
                 </div>
                     
                 <div class="inputSelect">
                     <h3 class="titulo-informativo">Propósito da visita?</h3>
                     <label class="labelProposito">
-                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <select class="form-select" aria-label="Propósito da Visita">
                             <option selected>Abra para selecionar</option>
                             <option value="lazer">Lazer</option>
                             <option value="negocios">Negócios</option>
@@ -59,7 +58,7 @@
                 <div class="inputSelect">
                     <h3 class="titulo-informativo">Quantas vezes veio ao nosso hotel?</h3>
                     <label class="labelVezes">
-                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <select class="form-select mb-3" aria-label="Quantas vezes veio ao nosso hotel">
                             <option selected>Abra para selecionar</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -73,7 +72,7 @@
                 <div class="inputSelect">
                     <h3 class="titulo-informativo">Avaliação do Ambiente</h3>
                     <label class="labelInput">O hotel em sua totalidade:</label>
-                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <select class="form-select" aria-label="O hotel">
                         <option selected>Abra para selecionar</option>
                         <option value="Excelente">Excelente</option>
                         <option value="Bom">Bom</option>
@@ -83,7 +82,7 @@
                     
          
                     <label class="labelInput">Chegada - registro eficiente:</label>
-                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <select class="form-select" aria-label="Chegada">
                         <option selected>Abra para selecionar</option>
                         <option value="Excelente">Excelente</option>
                         <option value="Bom">Bom</option>
@@ -93,7 +92,7 @@
                     
          
                     <label class="labelInput">Nível de conforto das camas:</label>
-                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <select class="form-select" aria-label="Conforto">
                         <option selected>Abra para selecionar</option>
                         <option value="Excelente">Excelente</option>
                         <option value="Bom">Bom</option>
@@ -103,7 +102,7 @@
                     
          
                     <label class="labelInput">Limpeza do quarto:</label>
-                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <select class="form-select" aria-label="Limpeza">
                         <option selected>Abra para selecionar</option>
                         <option value="Excelente">Excelente</option>
                         <option value="Bom">Bom</option>
@@ -113,7 +112,7 @@
                     
          
                     <label class="labelInput">Experiência no restaurante:</label>
-                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <select class="form-select" aria-label="Restaurante">
                         <option selected>Abra para selecionar</option>
                         <option value="Excelente">Excelente</option>
                         <option value="Bom">Bom</option>
@@ -125,7 +124,7 @@
                 <div class="inputSelect">
                     <h3 class="titulo-informativo">Como souberam de nós??</h3>
                     <label class="labelSocial">
-                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <select class="form-select" aria-label="Redes">
                             <option selected>Abra para selecionar</option>
                             <option value="Excelente">Instagram</option>
                             <option value="Bom">Facebook</option>
@@ -151,7 +150,7 @@
                 <div class="inputSelect">
                     <h3 class="titulo-informativo">Você indicaria o Hotel Escola Guaramiranga?</h3>
                     <label class="labelIndicaria">
-                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <select class="form-select mb-3" aria-label=".form-select-lg example">
                             <option selected>Abra para selecionar</option>
                             <option value="sim">Sim</option>
                             <option value="nao">Não</option>
@@ -167,4 +166,7 @@
             
         </form>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+</html>
